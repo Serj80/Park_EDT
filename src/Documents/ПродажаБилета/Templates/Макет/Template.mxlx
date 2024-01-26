@@ -34,7 +34,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион:</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -42,7 +42,7 @@
 			<c>
 				<c>
 					<f>3</f>
-					<parameter>Аттракцион</parameter>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 		</row>
@@ -54,6 +54,29 @@
 				<i>1</i>
 				<c>
 					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество посещений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<parameter>КоличествоПосещений</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>5</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -71,8 +94,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>3</index>
-		<indexTo>4</indexTo>
+		<index>4</index>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -82,7 +104,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -94,7 +116,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>6</defaultFormatIndex>
+	<defaultFormatIndex>7</defaultFormatIndex>
 	<height>6</height>
 	<vgRows>6</vgRows>
 	<merge>
@@ -125,19 +147,22 @@
 	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
+		<width>173</width>
+	</format>
+	<format>
+		<font>0</font>
+	</format>
+	<format>
+		<font>0</font>
+		<width>72</width>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>72</width>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
 		<width>98</width>
-	</format>
-	<format>
-		<font>0</font>
-	</format>
-	<format>
-		<font>0</font>
-		<width>72</width>
-		<fillType>Parameter</fillType>
-	</format>
-	<format>
-		<width>72</width>
-		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>1</font>
